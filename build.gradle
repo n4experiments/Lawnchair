@@ -275,10 +275,16 @@ allprojects {
         mavenCentral()
         jcenter()
         maven { url 'https://jitpack.io' }
+
+        flatDir {
+            dirs 'aars'
+        }
     }
 }
 
 dependencies {
+    implementation(name: 'libtaskbar', ext: 'aar')
+
     implementation "com.android.support:appcompat-v7:${SUPPORT_LIBS_VERSION}"
     implementation "com.android.support:cardview-v7:${SUPPORT_LIBS_VERSION}"
     implementation "com.android.support:design:${SUPPORT_LIBS_VERSION}"

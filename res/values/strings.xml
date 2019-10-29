@@ -347,4 +347,6 @@
     <string name="bottom_work_tab_user_education_close_button">Close</string>
     <string name="bottom_work_tab_user_education_closed">Closed</string>
     <string name="web_search_yahoo">Yahoo (web)</string>
+
+    <string name="desktop_mode_settings">Desktop Mode Settings</string>
 </resources>

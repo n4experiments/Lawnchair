@@ -302,6 +302,10 @@
         <item name="workspaceAmbientShadowColor">#33000000</item>
         <item name="workspaceKeyShadowColor">#44000000</item>
     </style>
+    <style name="SettingsTheme.V2.DesktopMode" parent="SettingsTheme.V2">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">false</item>
+    </style>
 
     <style name="BorderlessButton" parent="Theme.AppCompat.Light">
         <item name="android:buttonStyle">@style/Widget.AppCompat.Button.Borderless.Colored</item>
