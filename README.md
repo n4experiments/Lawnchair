@@ -1,3 +1,12 @@
+## Android 10 Desktop Mode example using Lawnchair and libtaskbar
+
+For information on including libtaskbar in your own third-party launcher, see:
+https://github.com/farmerbb/Taskbar/blob/master/lib/README.md
+
+Additionally, you can download a pre-built APK from https://github.com/farmerbb/libtaskbar-Lawnchair-Example/releases.
+
+------------------------------
+
 # Lawnchair - [![Crowdin](https://d322cqt584bo4o.cloudfront.net/lawnchairandroid/localized.svg)](https://translate.lawnchair.app)
 
 ![Lawnchair](banner.png)
