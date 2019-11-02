@@ -275,12 +275,11 @@ allprojects {
         mavenCentral()
         jcenter()
         maven { url 'https://jitpack.io' }
-        maven { url 'https://dl.bintray.com/farmerbb/libtaskbar' }
     }
 }
 
 dependencies {
-    implementation('com.farmerbb:libtaskbar:1.0.0-alpha1') {
+    implementation('com.farmerbb:libtaskbar:1.0.0') {
         exclude group: 'com.android.support', module: 'design'
     }
 
