@@ -100,6 +100,7 @@ import com.android.launcher3.util.ContentWriter;
 import com.android.launcher3.util.ContentWriter.CommitParams;
 import com.android.launcher3.util.SettingsObserver;
 import com.android.launcher3.views.ButtonPreference;
+import com.farmerbb.taskbar.lib.Taskbar;
 import com.google.android.apps.nexuslauncher.reflection.ReflectionClient;
 import java.io.IOException;
 import java.util.Objects;
@@ -605,6 +606,12 @@ public class SettingsActivity extends SettingsBaseActivity implements
         public boolean onPreferenceTreeClick(Preference preference) {
             if (preference.getKey() != null && "about".equals(preference.getKey())) {
                 startActivity(new Intent(getActivity(), SettingsAboutActivity.class));
+                return true;
+            }
+            if (preference.getKey() != null && "desktop_mode".equals(preference.getKey())) {
+                Taskbar.openSettings(requireActivity(),
+                        getString(R.string.desktop_mode_settings),
+                        R.style.SettingsTheme_V2_DesktopMode);
                 return true;
             }
             return super.onPreferenceTreeClick(preference);

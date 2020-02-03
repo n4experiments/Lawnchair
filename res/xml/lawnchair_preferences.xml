@@ -117,4 +117,10 @@
         android:layout="@layout/home_preference"
         android:key="about"/>
 
+    <ch.deletescape.lawnchair.settings.ui.SubPreference
+        android:title="@string/desktop_mode_settings"
+        android:key="desktop_mode"
+        android:icon="@android:color/transparent"
+        android:layout="@layout/home_preference" />
+
 </android.support.v7.preference.PreferenceScreen>
